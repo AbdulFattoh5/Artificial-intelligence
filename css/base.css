@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --w: #ffffff;
+    --b: #000000;
+    --bl: #3A68B8;
+    --bg: #020A18;
+    --os: 'Open Sans', sans-serif;
+    --std: 'Circular Std', sans-serif;
+}
+
+.btn{
+    background: var(--bl);
+    color: var(--w);
+    padding: 15px 30px;
+}
