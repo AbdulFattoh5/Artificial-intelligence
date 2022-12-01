@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+body {
+    background: var(--bg);
+}
+
 :root {
     --w: #ffffff;
     --b: #000000;
@@ -15,8 +19,34 @@
     --std: 'Circular Std', sans-serif;
 }
 
-.btn{
+.container {
+    max-width: 1176px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.banner_container {
+    max-width: 1438px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.btn {
     background: var(--bl);
     color: var(--w);
     padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: var(--bl);
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: var(--w);
+    border: var(--w);
+    color: var(--bl);
 }
