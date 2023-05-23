@@ -109,19 +109,19 @@
         flex-direction: column-reverse;
     }
 
-    .banner1p{
+    .banner1p {
         text-align: center;
     }
 
-    .banner1_h{
+    .banner1_h {
         text-align: center;
     }
 
-    .banner1_P{
+    .banner1_P {
         text-align: center;
     }
 
-    .banner1_btns{
+    .banner1_btns {
         justify-content: center;
     }
 }
@@ -140,12 +140,12 @@
 }
 
 @media screen and (max-width:600px) {
-    .banner1_h{
+    .banner1_h {
         font-size: 45px;
         line-height: 60px;
     }
 
-    .banner1_P{
+    .banner1_P {
         font-size: 15px;
         line-height: 20px;
     }
@@ -160,7 +160,7 @@
 }
 
 @media screen and (max-width:450px) {
-    .banner1_h{
+    .banner1_h {
         font-size: 36px;
         line-height: 48px;
     }

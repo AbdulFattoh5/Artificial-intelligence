@@ -6,6 +6,7 @@
     width: 100%;
     z-index: 100;
     backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
 }
 
 .header_wrap {
