@@ -3,12 +3,16 @@
     max-width: 1134px;
     position: relative;
     margin: 0 auto;
+    max-height: 389px;
+    height: 100%;
 }
 
 #carousel_part {
-    overflow: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
     scroll-behavior: smooth;
     scrollbar-width: none;
+    height: 389px;
 }
 
 #carousel_part::-webkit-scrollbar {
@@ -52,6 +56,7 @@ i {
     grid-auto-flow: column;
     margin: auto;
     box-sizing: border-box;
+    height: 389px;
 }
 
 .card {
