@@ -1,0 +1,253 @@
+.footer {
+    margin: 130px 0 30px;
+}
+
+.footer_wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.ai {
+    margin-top: 70px;
+}
+
+.ai_h {
+    font-family: var(--os);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: var(--bl);
+    margin: 7px 0 9px;
+}
+
+.ai_p {
+    font-family: var(--os);
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 18px;
+    color: #FFFFFF;
+    max-width: 261px;
+    opacity: 0.6;
+}
+
+.ai__p {
+    margin-bottom: 37px;
+}
+
+.ai_icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.ai_icons-p {
+    font-family: var(--os);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--w);
+}
+
+.info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.footer_h {
+    font-family: var(--os);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--w);
+    margin-bottom: 32px;
+}
+
+.footer_a {
+    font-family: var(--os);
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 18px;
+    color: white;
+    opacity: 0.6;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.footer_a:hover {
+    opacity: 1;
+}
+
+.footer_menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.about_store {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.store_a {
+    font-family: var(--os);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 21px;
+}
+
+.store_social {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 56px;
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.lang_p {
+    font-family: var(--os);
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 18px;
+}
+
+.AI {
+    display: none;
+}
+
+@media screen and (max-width:1000px) {
+    .ai {
+        display: none;
+    }
+
+    .AI {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .ai__p {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .info {
+        margin-top: 70px;
+    }
+
+    .footer_menu {
+        margin-top: 70px;
+    }
+
+    .links {
+        margin-top: 70px;
+    }
+
+    .about_store {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .footer_wrap{
+        display: grid;
+        grid-template-columns: repeat(2, 201px);
+        margin-left: 50px;
+    }
+    .info {
+        margin-top: 30px;
+    }
+
+    .footer_menu {
+        margin-top: 30px;
+    }
+
+    .links {
+        margin-top: 30px;
+    }
+
+    .about_store {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .footer_wrap{
+        display: grid;
+        grid-template-columns: repeat(2, 180px);
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:430px){
+    .footer_wrap{
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+        margin-left: 0;
+    }
+
+    .store_social{
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:340px){
+    .footer_wrap{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        justify-items: center;
+    }
+
+    .about_store{
+        text-align: center;
+    }
+
+    .footer_h{
+        text-align: center;
+        width: 100%;
+    }
+
+    .store_a{
+        text-align: center;
+        width: 100%;
+    }
+
+    .store_social{
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .lang{
+        margin: 0 auto;
+    }
+}
